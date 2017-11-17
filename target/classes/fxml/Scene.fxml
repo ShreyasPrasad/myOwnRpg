@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="306.0" prefWidth="445.0" style="-fx-background-color: #0080ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.myownrpg.FXMLController">
+    <children>
+        <Button fx:id="button" layoutX="95.0" layoutY="166.0" onAction="#handleFileRequest" prefHeight="41.0" prefWidth="256.0" style="-fx-background-color: #ffffff;" text="Select A Configuration File">
+         <font>
+            <Font name="Fox &amp; Cat" size="12.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/homeimg.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

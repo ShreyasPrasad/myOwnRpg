@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="600.0" style="-fx-background-color: #7384E4;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.myownrpg.LossController">
+    <stylesheets>
+        <URL value="@/styles/loss.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="48.0" layoutY="167.0" text="You Weren't Quick Enough! Maybe Next Time." textFill="WHITE">
+         <font>
+            <Font name="Fox &amp; Cat" size="25.0" />
+         </font>
+      </Label>
+      <Button id="back" fx:id="back" layoutX="202.0" layoutY="212.0" mnemonicParsing="false" onAction="#returnToMainMenu" style="-fx-background-color: #fff;" text="Back to Selection Menu">
+         <font>
+            <Font name="Fox &amp; Cat" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

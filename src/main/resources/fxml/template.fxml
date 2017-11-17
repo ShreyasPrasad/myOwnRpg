@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="bg" fx:id="bg" prefHeight="489.0" prefWidth="707.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.myownrpg.TemplateController">
+    <stylesheets>
+        <URL value="@/styles/template.css" />
+    </stylesheets>
+   <children>
+      <Pane id="pane" fx:id="pane" layoutY="347.0" prefHeight="142.0" prefWidth="707.0" style="-fx-background-color: #212223;" visible="false">
+         <children>
+            <ImageView id="waveleft" fx:id="waveleft" fitHeight="73.0" fitWidth="76.0" layoutX="96.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/waveleft.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="waveright" fx:id="waveright" fitHeight="73.0" fitWidth="76.0" layoutX="241.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/waveright.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="fist" fx:id="fist" fitHeight="73.0" fitWidth="76.0" layoutX="389.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/fist.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="doubletap" fx:id="doubletap" fitHeight="73.0" fitWidth="76.0" layoutX="531.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/doubletap.jpg" />
+               </image>
+            </ImageView>
+            <Label id="t1" fx:id="t1" layoutX="115.0" layoutY="120.0" textFill="#fcfcfc" />
+            <Label id="t2" fx:id="t2" layoutX="260.0" layoutY="119.0" textFill="#fcfcfc" />
+            <Label id="t3" fx:id="t3" layoutX="408.0" layoutY="119.0" textFill="#fcfcfc" />
+            <Label id="t4" fx:id="t4" layoutX="550.0" layoutY="119.0" textFill="#fcfcfc" />
+         </children>
+      </Pane>
+      <Label id="story" fx:id="story" contentDisplay="CENTER" layoutX="59.0" layoutY="102.0" prefHeight="150.0" prefWidth="590.0" style="-fx-alignment: center; -fx-background-color: #fff;" text="Story Description" />
+      <Label id="moves" fx:id="moves" alignment="CENTER" layoutX="167.0" layoutY="311.0" prefHeight="17.0" prefWidth="373.0" text="Move Instructions" visible="false">
+         <font>
+            <Font name="Fox &amp; Cat" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
